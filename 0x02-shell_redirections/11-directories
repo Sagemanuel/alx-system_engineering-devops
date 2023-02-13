@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type d ! -path -print | wc -l
+ls -Rl | grep "^d" | grep -v "\.$" | wc -l
