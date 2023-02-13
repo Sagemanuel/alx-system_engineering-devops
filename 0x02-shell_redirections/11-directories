@@ -1,2 +1,3 @@
 #!/bin/bash
-ls -Rl | grep "^d" | grep -v "\.$" | wc -l
+grep -A 3 "root" /etc/passwd
+
